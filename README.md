@@ -29,3 +29,8 @@ when done you can deactivate the environment using the command ----> <h3>deactiv
 
 <h3>If you want to create another enviornment in another directory then type 2nd and 3rd command</h3>
 
+<h2> How to add API Keys in Harvester for more accurate results</h2>
+Some private search engines like shodan, virusdefender etc needs to add their API in the harvester for searching. to add their API just login to those websites and copy their respective APIs. Then edit this file
+<h4>sudo mousepad /etc/theHarvester/api-keys.yaml</h4>
+from there add the API keys under there names according to serial. then save it. 
+then when you'll search again something, system will search from those websites also using the APIs.
